@@ -41,6 +41,7 @@ typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
+<<<<<<< HEAD
 		va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
@@ -111,3 +112,8 @@ long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
 #endif /* MAIN_H */
+=======
+va_list list, char buffer[], int flags, int width, int precision, int size);
+
+#endif
+>>>>>>> 622eccf0b1047107eea449cbf0db9eeefe79b5c7
